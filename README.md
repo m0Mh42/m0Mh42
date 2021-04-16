@@ -43,7 +43,7 @@ I'm m0Mh42.
                        interests.photographing,
                        interests.linux,
                        interests.music)
-         self.intrests.set_intrests(_interests)
+         self.interests.set_intrests(_interests)
 ```
 
 
