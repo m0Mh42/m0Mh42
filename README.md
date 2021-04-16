@@ -19,4 +19,32 @@ I'm m0Mh42.
 
 :)
 
+```python
+ import human
+ from human import interests, personalities
+
+ class m0Mh42(human):
+     def __init__(self):
+         super().__init__()
+         self.set_personality()
+         self.set_interests()
+
+     def set_personality(self):
+         _personalities = (personalities.introvert,
+                          personalities.kind,
+                          personalities.selfish,
+                          personalities.moody,
+                          personalities.funny)
+         self.personality.set_personality(personalities)
+
+     def set_intrests(self):
+         _interests = (interests.programming,
+                       interests.gaming,
+                       interests.photographing,
+                       interests.linux,
+                       interests.music)
+         self.intrests.set_intrests(_interests)
+```
+
+
 ```Currently not so much active cuz there's not much to do :)```
