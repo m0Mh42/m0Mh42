@@ -30,7 +30,7 @@ I'm m0Mh42.
          self.set_interests()
 
      def set_personality(self):
-         _personalities = (personalities.introvert,
+         _personalities = tuple(personalities.introvert,
                           personalities.kind,
                           personalities.selfish,
                           personalities.moody,
@@ -38,7 +38,7 @@ I'm m0Mh42.
          self.personality.set_personality(personalities)
 
      def set_intrests(self):
-         _interests = (interests.programming,
+         _interests = tuple(interests.programming,
                        interests.gaming,
                        interests.photographing,
                        interests.linux,
